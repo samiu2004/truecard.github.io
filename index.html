@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Check your True Card eligibility in minutes</title>
+    <!-- Subject: Check your True Card eligibility in minutes -->
+    <!-- Preheader: US residents 18+; checking won’t impact your score. -->
+    <style>
+      body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+      table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+      img { -ms-interpolation-mode:bicubic; border:0; outline:none; text-decoration:none; display:block; }
+      body { margin:0; padding:0; width:100%!important; height:100%!important; font-family: Arial, Helvetica, sans-serif; background:#0b1220; }
+      .wrapper { width:100%; padding:0; }
+      .container { width:100%; max-width:600px; margin:24px auto; background:#ffffff; border-radius:14px; box-shadow:0 10px 30px rgba(2,6,23,.26); overflow:hidden; }
+
+      /* ===== Animated Header (navy→gold gradient) ===== */
+      .header { color:#fff; text-align:center; padding:32px 20px; background: linear-gradient(90deg,#0f172a,#d97706); background-size:200% 200%; }
+      @keyframes gradientShift { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
+      .header.anim { animation: gradientShift 12s ease infinite; }
+      .header h1 { margin:0; font-size:22px; letter-spacing:.2px; }
+      .header p { margin:10px 0 0; font-size:14px; opacity:.95; }
+
+      /* ===== Intro ===== */
+      .intro { padding:24px; text-align:center; }
+      .intro h2 { margin:0 0 8px; font-size:21px; color:#0f172a; }
+      .intro p { font-size:15px; line-height:22px; color:#384152; margin:0; }
+      .reveal { display:inline-block; }
+      @keyframes fadeUp { from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:translateY(0)} }
+      .reveal.anim { animation: fadeUp .8s ease .2s both; }
+
+      /* ===== Benefit Pills ===== */
+      .benefits { padding:18px 18px 8px; background:#f8fafc; text-align:center; }
+      .pillbox { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
+      .pill { font-size:13px; color:#0b1220; background:linear-gradient(90deg,#fef9c3,#fef3c7); border:1px solid #e2e8f0; padding:8px 12px; border-radius:999px; box-shadow:0 1px 0 rgba(2,6,23,.05); }
+
+      /* ===== Feature List ===== */
+      .features { padding:14px 24px 2px; }
+      .features h3 { margin:0 0 8px; font-size:16px; color:#0f172a; text-align:center; }
+      .features ul { margin:0; padding-left:18px; }
+      .features li { margin-bottom:8px; font-size:14px; color:#374151; }
+
+      /* ===== CTA ===== */
+      .cta { text-align:center; padding:24px; background: #fff7ed; }
+      .cta a { display:inline-block; padding:14px 28px; font-size:16px; font-weight:800; text-decoration:none; border-radius:10px; background:#0f172a; color:#facc15; box-shadow:0 6px 16px rgba(17,24,39,.18); }
+      .cta p { margin-top:10px; font-size:12px; color:#6b7280; }
+
+      /* ===== Footer ===== */
+      .footer { background:#f9fafb; padding:20px; font-size:12px; color:#6b7280; text-align:center; }
+      .footer a { color:#6b7280; text-decoration:underline; }
+
+      @media screen and (max-width:600px){ .container{margin:12px auto} .intro h2{font-size:19px} }
+    </style>
+  </head>
+  <body>
+    <center class="wrapper">
+      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td>
+            <table class="container" role="presentation" cellspacing="0" cellpadding="0" border="0">
+              <!-- Header (animated gradient navy→gold) -->
+              <tr>
+                <td class="header anim">
+                  <h1>True Card — US Exclusive</h1>
+                  <p class="reveal anim">Email traffic only · Non‑incent · Fast eligibility check</p>
+                </td>
+              </tr>
+
+              <!-- Intro -->
+              <tr>
+                <td class="intro">
+                  <h2>Check your True Card eligibility in minutes</h2>
+                  <p>Hi there,<br>
+                  See if True Card could be right for you. Checking eligibility won’t impact your credit score.</p>
+                </td>
+              </tr>
+
+              <!-- Benefit pills -->
+              <tr>
+                <td class="benefits">
+                  <div class="pillbox">
+                    <span class="pill">No annual fee options*</span>
+                    <span class="pill">Quick pre‑qualification</span>
+                    <span class="pill">Widely accepted</span>
+                    <span class="pill">US residents 18+ only</span>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- Feature list -->
+              <tr>
+                <td class="features">
+                  <h3>What to have ready</h3>
+                  <ul>
+                    <li>Basic identity information</li>
+                    <li>US address &amp; contact details</li>
+                    <li>Estimated income to help determine eligibility</li>
+                  </ul>
+                </td>
+              </tr>
+
+              <!-- CTA -->
+              <tr>
+                <td class="cta">
+                  <a href="{{OFFER_LINK}}?aff_click_id={{click_id}}" target="_blank">Check Eligibility</a>
+                  <p>No incentive required. Standard approval criteria apply.</p>
+                </td>
+              </tr>
+
+              <!-- Footer -->
+              <tr>
+                <td class="footer">
+                  <p>
+                    This message is an advertisement for True Card.<br><br>
+                    <strong>Important:</strong> Offer available to US residents only. Email traffic only. No incent, mobile incent, points‑back, or reward sites allowed.
+                    <br><br>
+                    {{sender_name}} · {{sender_address_line1}} · {{sender_city}}, {{sender_state}} {{sender_zip}}<br>
+                    <a href="{{unsubscribe_url}}">Unsubscribe</a> · <a href="{{preferences_url}}">Manage preferences</a>
+                    <br><br>
+                    © {{year}} {{sender_brand}}. All rights reserved.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
